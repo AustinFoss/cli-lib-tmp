@@ -1,0 +1,28 @@
+{
+  "name": "@AustinFoss/cli-lib-tmp",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "/dist/index.js",
+  "types": "/dist/index.d.ts",
+  "workspace": [
+    "examples/astro-gui",
+    "."
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "bin": {
+    "mycmd": "./dist/cli/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "mycmd": "node ./dist/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.0",
+    "typescript": "^5.0.0"
+  }
+}

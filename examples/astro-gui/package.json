@@ -1,0 +1,14 @@
+{
+  "name": "astro-gui",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "mycmd": "npx mycmd"
+  },
+  "dependencies": {
+    "astro": "^4.0.0",
+    "cli-lib-tmp": "link:../.."
+  }
+}
