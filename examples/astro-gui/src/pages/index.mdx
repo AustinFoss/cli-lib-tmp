@@ -1,0 +1,10 @@
++++
+layout = '../layouts/App.astro'
+title = 'Astro SPA Template'
++++
+
+import { Counter } from '../components/Counter.tsx'
+
+# {frontmatter.title}
+
+<Counter client:only />

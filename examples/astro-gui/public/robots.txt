@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://my-app-xyz.ipns.dweb.link/sitemap-index.xml

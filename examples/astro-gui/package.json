@@ -1,14 +1,32 @@
 {
-  "name": "astro-gui",
-  "private": true,
+  "name": "astro-spa-tmp",
+  "type": "module",
+  "version": "0.1.1",
+  "author": "Austin Foss",
+  "license": "CC0 v1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AustinFoss/astro-spa-tmp"
+  },
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "mycmd": "mycmd"
+    "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/mdx": "^4.3.6",
+    "@astrojs/sitemap": "^3.6.0",
+    "@astrojs/solid-js": "^5.1.1",
     "@austinfoss/cli-lib-tmp": "workspace:^",
-    "astro": "^4.0.0"
+    "@nanostores/solid": "^1.1.1",
+    "@tailwindcss/vite": "^4.1.13",
+    "astro": "^5.14.1",
+    "nanostores": "^1.0.1",
+    "solid-js": "^1.9.9",
+    "tailwindcss": "^4.1.13"
+  },
+  "devDependencies": {
+    "daisyui": "^5.1.25"
   }
 }

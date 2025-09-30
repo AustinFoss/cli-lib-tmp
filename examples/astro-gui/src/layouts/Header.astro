@@ -1,0 +1,22 @@
+---
+const pages = [
+    {path: '/', name: 'Home'},
+    {path: '/about', name: 'About'}
+]
+---
+
+<header>
+
+    <nav>
+
+        {pages.map((page) => (
+            <a href={page.path}>            
+                <button class='btn'>
+                    {page.name}
+                </button>
+            </a>
+        ))}
+
+    </nav>
+
+</header>
