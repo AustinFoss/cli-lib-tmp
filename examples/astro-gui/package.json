@@ -5,10 +5,10 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "mycmd": "npx mycmd"
+    "mycmd": "mycmd"
   },
   "dependencies": {
-    "astro": "^4.0.0",
-    "cli-lib-tmp": "link:../.."
+    "@austinfoss/cli-lib-tmp": "workspace:^",
+    "astro": "^4.0.0"
   }
 }
