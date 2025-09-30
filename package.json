@@ -2,7 +2,7 @@
   "name": "@austinfoss/cli-lib-tmp",
   "author": "Austin Foss",
   "license": "CC0 v1.0",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "url": "https://github.com/AustinFoss/cli-lib-tmp",
   "main": "./dist/index.js",
