@@ -14,3 +14,6 @@ It uses:
 - Astro: Sitemap
 
 Otherwise is a bare bones starter scaffold for prototyping.
+
+
+In order to use clone the repo and delete the .git directory. As well you'll need to modify the information inside the package.json file for version, package name, author name, etc.

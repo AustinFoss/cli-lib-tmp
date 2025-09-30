@@ -31,3 +31,5 @@ This repository demonstrates a CLI and library setup with TypeScript, plus an As
   ## Explanation
 
   This is simply a template for building further CLI and Library tools so I don't have to configure my package.json, tsconfig, etc. each time.
+
+  In order to use clone the repo and delete the .git directory. As well you'll need to modify the information inside the package.json file for version, package name, author name, etc.

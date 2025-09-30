@@ -2,7 +2,7 @@
   "name": "@austinfoss/cli-lib-tmp",
   "author": "Austin Foss",
   "license": "CC0 v1.0",
-  "version": "0.1.4444",
+  "version": "0.2.0",
   "type": "module",
   "repository": {
     "type": "git",
